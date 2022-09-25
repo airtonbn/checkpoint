@@ -48,6 +48,7 @@ footer {
 .footer {
     margin-top: 180px;
     background-color: black;
+
 }
 
 .ul-footer {
@@ -58,7 +59,7 @@ footer {
     filter: brightness(100);
 }
 
-.footer p{
+.footer {
     color: white;
     text-align: center;
 }
@@ -66,6 +67,11 @@ footer {
 .ul-footer img {
     width: 20px;
     margin: 5px;
+}
+
+.footer-col {
+    display: flex;
+
 }
 
 #fotoFilme {
