@@ -3,3 +3,82 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbarMenu {
+    padding: 20px 0;
+    align-items: center;
+    color: black;
+    background-color: white;
+}
+
+ul li a:hover {
+    text-shadow: 0 0 2px white;
+}
+
+.carousel-inner {
+    padding-top: 106px;
+}
+
+.container-carousel {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.filmes img {
+    width: 30%;    
+}
+.filmes label {
+    font-size: 15px;
+}
+
+#fotoFilme {
+}
+
+footer {
+}
+
+.footer {
+    margin-top: 180px;
+    background-color: black;
+}
+
+.ul-footer {
+}
+
+.ul-footer li {
+    list-style: none;
+    filter: brightness(100);
+}
+
+.footer p{
+    color: white;
+    text-align: center;
+}
+
+.ul-footer img {
+    width: 20px;
+    margin: 5px;
+}
+
+#fotoFilme {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+/* li a {
+    display: flex;
+    flex-direction: row;
+} */

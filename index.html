@@ -1,13 +1,169 @@
+<!-- Integrantes do grupo
+Silvia Jesus Santos
+Airton Negromonte
+Ismael Oliveira -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <!-- Css -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- ESTILOS PARA ESTA PÁGINA -->
+    <!-- Nesse caso, este estilo é apenas para inserir imagens -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+    <!-- JAVASCRIPT E JQUERY -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+        integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+        integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script> -->
+
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>DH Flix</title>
 </head>
+
 <body>
-    
-</body>
+    <!-- MENU SUPERIOR -->
+    <nav id="navbarMenu" class="navbar navbar-default navbar-fixed-top">
+
+        <div class="container-nav">
+            <div class="navbar-header">
+                <img src="./img/logo.png" alt="logo DH">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
+                    <i class="material-icons">menu</i>
+                </button>
+            </div>
+
+            <nav id="links-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Itens</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+    <!-- FIM MENU SUPERIOR -->
+
+    <!-- CAROUSEL -->
+    <div class="container-carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- INDICADORES -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            <!-- FIM INDICADORES -->
+            <!-- SLIDES -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/filmeJoker.png" alt="filme Joker" title="banner 1">
+                </div>
+                <div class="item">
+                    <img src="./img/filmeAfter.png" alt="filme Joker" title="banner 2">
+                </div>
+                <div class="item">
+                    <img src="./img/filmeMarvel.png" alt="filme Joker" title="banner 3">
+                </div>
+                <div class="item">
+                    <img src="./img/filmeDora.png" alt="filme Joker" title="banner 4">
+                </div>
+
+            </div>
+            <!-- FIM SLIDES -->
+            <!-- CONTROLADORES -->
+            <!-- <div class="controlador"> -->
+            <a href="#myCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="#myCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+            <!-- </div> -->
+            <!-- FIM CONTROLADORES -->
+        </div>
+    </div>
+
+    <main class="col-md-9 col-lg-9 col-xs-12 filmes">
+        <h1>Ítems</h1>
+            <div id="fotoFilme1" class="col-md-4 col-lg-3 col-xs-12 text-center">
+                <a href="#"><img src="./img/filmeJoker.png" alt="foto do filme joker">
+                    
+                </a>
+            </div>
+            <div id="fotoFilme2" class="col-md-4 col-lg-3 col-xs-12 text-center">
+                <a href="#"><img src="./img/filmeAfter.png" alt="foto do filme after">
+                    
+                </a>
+            </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer-p">
+            <p>Integrantes do grupo</p>
+        </div>
+        <div>
+            <ul class="ul-footer">
+                <li>
+                    <a href="https://github.com/airtonbn" target="_blank"><img src="./img/git.png" alt="imagem git Airton"
+                            title="Airton"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/airtonbn/" target="_blank"><img src="./img/linkedin.png"
+                            alt="imagem linkedin" title="Airton"></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ul-footer">
+                <li>
+                    <a href="https://github.com/silviajesussantos" target="_blank"><img src="./img/git.png" alt="imagem git Silvia"
+                            title="Silvia"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/silvia-jesus-santos-84611854/" target="_blank"><img src="./img/linkedin.png"
+                            alt="imagem linkedin" title="Silvia"></a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="ul-footer">
+                <li>
+                    <a href="https://github.com/Ismael5046" target="_blank"><img src="./img/git.png" alt="imagem git Ismael"
+                            title="Ismael"></a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/in/ismael-moraes-8532b122a" target="_blank"><img src="./img/linkedin.png"
+                            alt="imagem linkedin" title="Ismael"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </html>
